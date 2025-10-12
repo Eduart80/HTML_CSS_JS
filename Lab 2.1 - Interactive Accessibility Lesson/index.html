@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+        <main id="main" class="contact-page">
+            <div class="contact-form-section">
+                <form id="myForm" action="">
+                    <h2 class="contact-form-heading">Reach <span>Out</span></h2>
+                    <div class="contact-form-intro">Curious about something? Complete these fields and "get in touch", as you humans say. 🤙</div>
+                    <label for="userName" tabindex="0">User name</label>
+                    <input class="contact-input" type="text" aria-live="polite" placeholder="Full name" required/>
+                    <label for="email" tabindex="0">Email</label>
+                    <input class="contact-input" type="email" id="email" name="email" placeholder="Email" aria-invalid="false" aria-describedby="email-error" required/>
+                    <span id="email-error" class="error" aria-hidden="true">Please enter a valid email address</span>
+                    <label class="message" tabindex="0">Your message</label>
+                    <textarea class="contact-textarea" rows="4" cols="50" placeholder="Your message..." aria-live="polite"></textarea>
+                    <button class="contact-submit-button" type="submit" onclick="submitForm()" >Submit</button>
+                </form>
+                <img class="contact-image" src="images/connect.jpg" alt="connect" />
+            </div>
+        </main>
+</body>
+</html>

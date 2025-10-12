@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="./css/sbaStyle.css"/>
+</head>
+<body>
+        <div class="topNav" id="myTopNav" role="navigation" aria-label="NavigationBar">
+            <a href="#home" class="active" aria-label="Home page">Home</a>
+            <a href="#about" aria-label="About page">About</a>
+            <a href="#contact" aria-label="Contact me page">Contact</a>
+            <a href="javascript:void(0);" style="font-size:15px;"
+                class="icon" onclick="myFunction()">&#9776;</a>
+            </a>
+        </div>
+    <header>
+        <div class="hero-container">
+            <h1 class="centerText">Trust Accessible Design team</h1>
+            <image src="./images/lakeView.png" alt="hero-image" style="width: 100%;"/>
+        </div>
+    </header>
+    <div class="container">
+        <div class="box" id="main">
+        <main>
+            <h2>Semantic HTML Structure</h2>
+            <p>Use semantic HTML elements (<\header>, <\main>, <\section>, <\article>, <\footer>, etc.) to create a clear and meaningful structure.
+        Ensure that all content is organized hierarchically using proper headings (<\h1>, <\h2>, etc.).</p>
+        </main>
+        </div>
+        <div class="box" id="section">
+        <section>
+            <h2>Responsive Design Using Flexbox and Grid</h2>
+            <p>Implement a responsive navigation bar using Flexbox that adjusts to smaller screen sizes.
+            Use CSS Grid to create a multi-column layout for the main content area that collapses to a single column on mobile devices.
+            Add media queries to adjust the layout and font sizes for different screen sizes (e.g., 600px and 1024px breakpoints).</p>
+        </section>
+        </div>
+        
+        <div class="box" id="article">
+        <article>
+            <h2>Accessibility Features</h2>
+            <p>Use ARIA roles and attributes to enhance the accessibility of interactive elements:
+            Add role="navigation" to the navigation bar.
+            Use aria-label or aria-labelledby for labeling interactive elements where necessary.
+            Include aria-live attributes for dynamically updating content, if applicable.
+            Ensure that all images have meaningful alt text, and decorative images use alt="".
+            Design forms with accessible labels and validation feedback:
+            Use a <\label> elements associated with each form input.
+            Add aria-describedby for additional instructions or error messages.
+            Ensure proper keyboard navigation and focus management for all interactive elements</p>
+        </article>
+        </div>
+        <div class="box" id="formBox">
+            <div class="formTest">
+                <form class="form" aria-label="Form feedback">
+                    <label for="username">User name: </label>
+                    <input type="text" id="username" aria-labelledby="User name"  placeholder="User Name" required><br>
+                    <label for="email">Your email: </label>
+                    <input type="text" id="email" aria-labelledby="Email"  placeholder="Email" required><br>
+                    <label for="subject">Subject: </label>
+                    <input type="text" id="subject" aria-labelledby="Subject"  placeholder="Subject" required><br>
+                    <label for="message">Message: </label>
+                    <textarea type="text" id="message" aria-label="message" required></textarea><br>
+                    <button type="button" aria-label="Submit Form">Submit form</button><br>
+                    <small id="userHelp">We'll never share your name with third parties.</small>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    
+
+
+
+<footer>@copyright 2025  footer with copyright information, social media links, and contact details</footer>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopNav");
+  if (x.className === "topNav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topNav";
+  }
+}
+</script>
+</body>
+</html>
