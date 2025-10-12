@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-    <link rel="stylesheet" href="./css/sbaStyle.css"/>
+    <link rel="stylesheet" href="./sbaStyle.css"/>
 </head>
 <body>
         <div class="topNav" id="myTopNav" role="navigation" aria-label="NavigationBar">
@@ -19,7 +19,7 @@
     <header>
         <div class="hero-container">
             <h1 class="centerText">Trust Accessible Design team</h1>
-            <image src="./images/lakeView.png" alt="hero-image" style="width: 100%;"/>
+            <image src="./lakeView.png" alt="hero-image" style="width: 100%;"/>
         </div>
     </header>
     <div class="container">
@@ -27,7 +27,7 @@
         <main>
             <h2>Semantic HTML Structure</h2>
             <p>Use semantic HTML elements (<\header>, <\main>, <\section>, <\article>, <\footer>, etc.) to create a clear and meaningful structure.
-        Ensure that all content is organized hierarchically using proper headings (<\h1>, <\h2>, etc.).</p>
+            Ensure that all content is organized hierarchically using proper headings (<\h1>, <\h2>, etc.).</p>
         </main>
         </div>
         <div class="box" id="section">
@@ -56,15 +56,15 @@
         <div class="box" id="formBox">
             <div class="formTest">
                 <form class="form" aria-label="Form feedback">
-                    <label for="username">User name: </label>
+                    <label for="userName" tabindex="0">User name: </label>
                     <input type="text" id="username" aria-labelledby="User name"  placeholder="User Name" required><br>
-                    <label for="email">Your email: </label>
+                    <label for="email" tabindex="0">Your email: </label>
                     <input type="text" id="email" aria-labelledby="Email"  placeholder="Email" required><br>
-                    <label for="subject">Subject: </label>
+                    <label for="subject" tabindex="0">Subject: </label>
                     <input type="text" id="subject" aria-labelledby="Subject"  placeholder="Subject" required><br>
-                    <label for="message">Message: </label>
+                    <label for="message" tabindex="0">Message: </label>
                     <textarea type="text" id="message" aria-label="message" required></textarea><br>
-                    <button type="button" aria-label="Submit Form">Submit form</button><br>
+                    <button type="submit" aria-label="Submit Form">Submit form</button><br>
                     <small id="userHelp">We'll never share your name with third parties.</small>
                 </form>
             </div>
