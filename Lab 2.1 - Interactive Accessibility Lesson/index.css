@@ -74,4 +74,23 @@ input:focus{
     color: #f7f5f5;
 }
 
-
+@media screen and (max-width:899px) {
+    .contact-image{
+        display: none;
+    }
+    .contact-page {
+    width: 80%;
+    }
+    .contact-form-section {
+    width: 80%;
+    }
+    .contact-input {
+    width: 220px;}
+    .contact-textarea {
+    width: 220px;}
+    .contact-submit-button {
+        display: flex;
+       justify-content: center;
+    width: 220px;
+}
+}
