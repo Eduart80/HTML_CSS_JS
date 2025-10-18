@@ -1,0 +1,49 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    text-align: center; 
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.component{
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 430px;
+    border-radius: 15px;
+     box-shadow: 5px 10px 20px #35386a;
+}
+.qr_container{
+    width: 280px;
+    height: 250px;
+    background-color: rgb(27, 138, 236);
+    margin: 10px 10px;
+    border-radius: 15px;
+}
+.qr_code img {
+    width: 155px;
+    height: 155px; 
+    margin: 17% 17%;
+}
+.description{
+     width: 280px;
+    height: 140px;
+    margin: 10px 10px;
+}
+.header {
+    margin: 5% 0 5% 0;
+}
+.header h2{
+    margin: auto;
+    width: 80%;
+    font-size: 18px;
+}
+.paragraph p{ 
+    margin: auto;
+    width: 85%;
+    font-size: 14px;
+    opacity: 50%;
+}
