@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.scss">
+</head>
+<body>
+<div class="bg-gray-800 p-4">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+        <div class="flex items-center gap-2">
+            <img src="./image/tailwindcss-mark.d52e9897.svg" alt="#" style="width: 60px; height: auto;">
+            <a href="#" class="text-red-400 font-bold text-xl hover:text-green-500">MyLogo</a>
+        </div>
+        <button id="mobile-menu-button" class="md:hidden text-gray-400 hover:text-white focus:outline-none focus:text-white">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+        <nav class="hidden md:flex space-x-4">
+            <a href="#" class="text-orange-100 hover:text-red-400">Home</a>
+            <a href="#" class="text-amber-300 hover:text-violet-400">About</a>
+            <a href="#" class="text-yellow-200 hover:text-red-600">Contact</a>
+        </nav>
+    </div>
+</div>
+<div class="flex justify-center items-center h-screen md-gray-100">
+  <div class="p-6 bg-white rounded-lg shadow-lg">
+    <h2 class="text-2xl font-semibold text-gray-800">Centered Box</h2>
+  </div>
+</div>
+
+</body>
+</html>
