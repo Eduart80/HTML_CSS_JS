@@ -65,8 +65,11 @@ body{
     content: '';
     display: block;
 }
-
-
+/* section */
+.section{
+    border: 1px solid black;
+    background-color: blue;
+}
 
 @media screen and (max-width:800px){
     .navbar-brand{
