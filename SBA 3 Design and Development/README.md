@@ -3,6 +3,8 @@
 
 Language: HTML, CSS, Bootstrap (JavaScript is optional but not required for now)
 
+Repo for SBA 3: https://github.com/Eduart80/SBA-3-Design-and-Development
+
 Applied bootstrap for main grid functionalities, including CSS properties.
 Using the same pre-text, titles, paragraphs, and pictures provided by Frontend Mentor.
 Difficulty: Intermediate
@@ -12,8 +14,6 @@ Inside the MERN repo lives SBA 3
 
 Initialize git 
 Add all changes, commit, and push to the cloud
-ready to be UI presentable from the main link:
-https://eduart80.github.io/HTML_CSS_JS/SBA%203%20Design%20and%20Development/index.html
 
 Screen max 1240px
 
